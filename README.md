@@ -26,9 +26,6 @@ go test .
 cd spotify-royalties-calculator/client
 ```
 ```sh
-export REACT_APP_API_URL=http://localhost:8080    
-```
-```sh
 yarn install
 ```
 ```sh
