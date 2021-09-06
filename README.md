@@ -29,6 +29,9 @@ cd spotify-royalties-calculator/client
 yarn install
 ```
 ```sh
+export REACT_APP_API_URL=http://localhost:8080 
+```
+```sh
 yarn start
 ```
 You can now view client in the browser: http://localhost:3000
