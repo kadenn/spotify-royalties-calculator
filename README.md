@@ -8,7 +8,7 @@ git clone https://github.com/kadenn/spotify-royalties-calculator.git
 
 
 ### Server
-**Note:** Make sure you replace the example.env file in the server directory with the one I shared with you.
+**Note:** Make sure you replace the .env_example file in the server directory with the .env file I shared with you.
 
 ```sh
 cd spotify-royalties-calculator/server
