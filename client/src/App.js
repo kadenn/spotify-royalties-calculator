@@ -4,7 +4,6 @@ import './App.css';
 import { Playlists } from './components/playlists';
 import { SpotifyUrlBar } from './components/spotifyUrlBar';
 import { TrackResults } from './components/trackResults';
-
 import 'bulma/css/bulma.min.css';
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
         <img src={logo} className="app-logo" alt="logo" />
       </div>
 
-      <div className="content container is-large is-fluid">
+      <div className="content container is-large is-fluid is-three-quarters-mobile">
         <p>
           Spotify Royalties Calculator is a simplified version of <strong>Blokur</strong> that uses the Spotify API to get song
           and artist data. The app basically estimates the total amount Spotify must pay the rights holders for a given song,
