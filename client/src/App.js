@@ -12,12 +12,12 @@ function App() {
 
       <div className="header section">
         <div className="content is-large">
-          <h1 className="title">Spotify Royalties Calculator</h1>
+          <h1 className="title is-size-3-mobile">Spotify Royalties Calculator</h1>
         </div>
         <img src={logo} className="app-logo" alt="logo" />
       </div>
 
-      <div className="content container is-large is-fluid is-three-quarters-mobile">
+      <div className="content container is-large is-fluid is-size-5-mobile">
         <p>
           Spotify Royalties Calculator is a simplified version of <strong>Blokur</strong> that uses the Spotify API to get song
           and artist data. The app basically estimates the total amount Spotify must pay the rights holders for a given song,
@@ -27,7 +27,7 @@ function App() {
         </p>
       </div>
 
-      <div className="content container is-large">
+      <div className="content container is-large ">
         <Playlists />
         <br />
         <SpotifyUrlBar />

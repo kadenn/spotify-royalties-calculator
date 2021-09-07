@@ -49,11 +49,11 @@ export function SpotifyUrlBar() {
 
     return (
         <div className="box">
-            <div className="content container is-large">
+            <div className="content container is-large is-size-5-touch">
                 <p><strong>You can also enter the Spotify URL of a song, album or playlist</strong></p>
-                <input className="input is-large" type="text" onChange={e => setSpotifyUrl(e.target.value)} placeholder="https://open.spotify.com/track/4TXYAETrGC53xgXZ7ykNEl?si=7e04081882ee4d8b" />
+                <input className="input is-large is-size-5-touch" type="text" onChange={e => setSpotifyUrl(e.target.value)} placeholder="https://open.spotify.com/track/4TXYAETrGC53xgXZ7ykNEl?si=7e04081882ee4d8b" />
             </div>
-            <button className="button is-info is-large" onClick={submitSpotifyUrl}>Calculate</button>
+            <button className="button is-info is-large is-size-5-touch" onClick={submitSpotifyUrl}>Calculate</button>
         </div>
     );
 };

@@ -48,14 +48,14 @@ export function Playlists() {
         <div >
             {playlists?.length > 0 &&
                 <div className="box">
-                    <div className="content container is-large">
+                    <div className="content container is-large is-size-5-mobile">
                         <p><strong>Click one of the featured playlists below to start</strong></p>
                     </div>
 
                     <div className="columns is-multiline is-mobile">
                         {playlists.map(playlist =>
-                            <div className="column is-2" key={playlist.playlistID}>
-                                <img className="is-clickable" onClick={() => submitPlaylistUrl(playlist.tracks.href)} src={playlist.images[0]?.url} alt="playlist" />
+                            <div className="column is-2-desktop is-4-touch" key={playlist.playlistID}>
+                                <img className="is-clickable " onClick={() => submitPlaylistUrl(playlist.tracks.href)} src={playlist.images[0]?.url} alt="playlist" />
                             </div>)}
                     </div>
                 </div>

@@ -16,10 +16,10 @@ export function TrackResults() {
                             <div className="column is-12" key={track.trackID}>
                                 <div className="box">
                                     <article className="media">
-                                        <div className="media-left image is-128x128">
+                                        <div className="media-left image is-128x128 is-hidden-touch">
                                             <img src={track.images[0]?.url} alt="track" />
                                         </div>
-                                        <div className="media-content">
+                                        <div className="media-content is-size-6-touch">
                                             <strong>{track.name}</strong>
                                             <br />
                                             The song was played <strong>{track.playCount}</strong> times.
